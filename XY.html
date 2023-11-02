@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>form_abc</title>
+</head>
+
+<body>
+<p>Даны вещественные числа X и Y . Вычислить Z. Z = XY при X > Y ,Z = ln(X + Y ) в противном случае.</p>
+<form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank">
+    <input name="q" type="hidden" value="search">
+    <p> формулировка задачи <input name="formulation" value="Даны вещественные числа X и Y . Вычислить Z. Z = XY при X > Y ,Z = ln(X + Y ) в противном случае."></p>
+    <ul>
+        <li>X: <input id="x" name="x" type="number" value=1></li>
+        <li>Y: <input id="y" name="y" type="number" value=2 ></li>
+        <li>результат решения: <input name="result" value="не определен"></li>
+        <li> <input id="send" type="button" value="Отправить"></li>
+    </ul>
+</form>
+<p id="result">Результаты вычислений: </p>
+<script src="./js/a_b.js"></script>
+</body>
